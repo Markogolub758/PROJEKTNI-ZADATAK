@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Stranica</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    
+    <!--JavaScript Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+    <!---- NavigationBar ---->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#slider"><img src="slike/audi-logo.png" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#slider">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#auto">Cars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!---- Slider ---->
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#headerSlider" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#headerSlider" data-bs-slide-to="1"></li>
+                <li data-bs-target="#headerSlider" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="slike/Banner1.jpg" class="d-block img-fluid" />
+                    <div class="carousel-caption">
+                        <h5>Feel the power</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slike/Banner2.png" class="d-block img-fluid" />
+                    <div class="carousel-caption">
+                        <h5>Stand out</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="slike/Banner3.jpg" class="d-block img-fluid" />
+                    <div class="carousel-caption">
+                        <h5 style="color: black; text-align: left;">Feel every corner</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!---- About ---->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <div class="about-content">
+                        Together we will create the future of premium mobility. Reasonable, meaningful, and focused on people´s needs. The complementarity of sustainability and digitalization will produce amazing opportunities and start a new era of mobility. We will make the difference by the way our products look like, work and feel. By progress you can feel.
+                    </div>
+                    <a href="about.html"><button type="button" class="btn btn-primary">Read more --></button></a>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <h3>Customer Ratings:</h3>
+                    <p>Overall</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 94%">9,33/10</div>
+                    </div>
+                    <p>Design</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%">9/10</div>
+                    </div>
+                    <p>Performance</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 100%">10/10</div>
+                    </div>
+                    <p>Comfort</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%">9/10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---- cars ---->
+    <section id="auto">
+        <div class="container">
+            <h1>Vehicle Types</h1>
+            <div class="row auto">
+                <div class="col-md-4 text-center">
+                    <a href="#van">
+                        <div class="icon">
+                            <i class="fas fa-shuttle-van"></i>
+                        </div>
+                        <h3>Van</h3>
+                        <p>We have every van you can think of.</p>
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="#sedan">
+                        <div class="icon">
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                        <h3>Sedans</h3>
+                        <p>We have large variety of sedan.</p>
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="#sport">
+                        <div class="icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3>Sports Car</h3>
+                        <p>Elegant, compoftable, fast sports cars</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br /> <br /> <br /><br /> <br />
+
+    <!---- Vans ---->
+    <section id="van">
+        <div class="container">
+            <h1>Van's</h1>
+
+            <!---- Red 1 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://www.autonews-mag.com/images/plkEJX9fsOQhd.jpg" target="_blank">
+                            <img src="slike/van/Van1.jpg" class="img-responsive" />
+                            <h2>Audi RS99 Transporter</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://www.tuningblog.eu/en/categories/cars-from-az/audi-ts6-widebody-airride-chassis-214020/attachment/850-ps-audi-TS6-widebody-airride-suspension-vw-t6-t5-tuning-11/" target="_blank">
+                            <img src="slike/van/Van2.jpg" class="img-responsive" />
+                            <h2>850 PS AUDI TS6</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="http://3.bp.blogspot.com/-8LYSqZ64rls/Ub2RolwFZyI/AAAAAAAAX6o/4PZ4p66FXSM/s640/Audi-A3-MPV.jpg" target="_blank">
+                            <img src="slike/van/Van3.jpg" class="img-responsive" />
+                            <h2>Audi A3 Van</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://i.pinimg.com/736x/b4/a6/40/b4a6405a230e0d7b6201f5da6bb5924b.jpg" target="_blank">
+                            <img src="slike/van/Van4.jpg" class="img-responsive" />
+                            <h2>Audi RS6 Van</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!---- Red 2 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://cdna.artstation.com/p/assets/images/images/006/574/300/large/sugar-chow-19203.jpg?1499646670" target="_blank">
+                            <img src="slike/van/Van5.jpg" class="img-responsive" />
+                            <h2>Audi Q12</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="http://4.bp.blogspot.com/-q9D4TqAE1O8/TiRuKbK_aLI/AAAAAAAAez8/4OjjQqgR6Ps/s640/AUDi-transporter-concept-1.jpg" target="_blank">
+                            <img src="slike/van/Van6.jpg" class="img-responsive" />
+                            <h2>Audi Transporter</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://i.pinimg.com/736x/51/d3/28/51d32825f05bcb1332842e61b6783b8e.jpg" target="_blank">
+                            <img src="slike/van/Van7.jpg" class="img-responsive" />
+                            <h2>850 PS AUDI TS6</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://parkers-images.bauersecure.com/pagefiles/267076/600x400/audi3x.jpg" target="_blank">
+                            <img src="slike/van/Van8.jpg" class="img-responsive" />
+                            <h2>Audi Pick-Up VAN</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!---- Red 3 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="http://3.bp.blogspot.com/-9LNpOPE1gcE/TiRuLMWDW3I/AAAAAAAAe0A/fYxf3Y-A3hs/s1600/AUDi-transporter-concept-2.jpg" target="_blank">
+                            <img src="slike/van/Van9.jpg" class="img-responsive" />
+                            <h2>Audi Premium Van</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://vanwebsite.co.uk/wp-content/uploads/audi-vw-caddy-van-again-1-800x580.jpg" target="_blank">
+                            <img src="slike/van/Van10.jpg" class="img-responsive" />
+                            <h2>Sports Audi Van</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://i.pinimg.com/736x/4b/c0/39/4bc039337fff6900cb9251840061c9d6--transporter-van-audi-rs.jpg" target="_blank">
+                            <img src="slike/van/Van11.jpg" class="img-responsive" />
+                            <h2>Audi T5 Transporter</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://i.pinimg.com/originals/76/31/9b/76319bc65c3cea7f726eebac2be029d4.jpg" target="_blank">
+                            <img src="slike/van/Van12.jpg" class="img-responsive" />
+                            <h2>Audi Pick-Up VAN 2019</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br /> <br /> <br /><br /> <br />
+
+
+    <!---- Sedans ---->
+    <section id="sedan">
+        <div class="container">
+            <h1>Sedans</h1>
+
+            <!---- Red 1 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://audimediacenter-a.akamaihd.net/system/production/media/91178/images/1f201fd6f5fcbd78b452dd0ff4907b1cc4dc0a8c/A202506_blog.jpg?1587377988" target="_blank">
+                            <img src="slike/sedan/sedan1.jfif" class="img-responsive" />
+                            <h2>Audi A3 Sedan</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://media.ed.edmunds-media.com/audi/s7/2021/oem/2021_audi_s7_sedan_prestige_fq_oem_1_815.jpg" target="_blank">
+                            <img src="slike/sedan/sedan2.jpg" class="img-responsive" />
+                            <h2>Audi S7 Sedan</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-audi-a6-mmp-1-1567713400.jpg?crop=0.889xw:1.00xh;0.0561xw,0&resize=768:*" target="_blank">
+                            <img src="slike/sedan/sedan3.jpg" class="img-responsive" />
+                            <h2>Audi A6 Sedan</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://media.ed.edmunds-media.com/audi/s6/2021/oem/2021_audi_s6_sedan_prestige_fq_oem_1_815.jpg" target="_blank">
+                            <img src="slike/sedan/sedan4.jpg" class="img-responsive" />
+                            <h2>Audi S6 Sedan</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!---- Red 2 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://i.insider.com/60f042c3d1026600182c5b07?width=1000&format=jpeg&auto=webp" target="_blank">
+                            <img src="slike/sedan/sedan5.jfif" class="img-responsive" />
+                            <h2>Audi E-Tron GT sEDAN</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-audi-a5-sportback-101-1567777538.jpg?crop=0.551xw:0.675xh;0.162xw,0.128xh&resize=768:*" target="_blank">
+                            <img src="slike/sedan/sedan6.jpg" class="img-responsive" />
+                            <h2>Audi A6 Sedan</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200507052054_Audi-A3-1.jpg&w=700&q=90&c=1" target="_blank">
+                            <img src="slike/sedan/sedan7.jpg" class="img-responsive" />
+                            <h2>Audi A3 Sedan</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://media.wired.com/photos/5bfdc1c6e80cd16006551353/master/w_960,c_limit/images-original-5118-EtronGT00000024-2.jpg" target="_blank">
+                            <img src="slike/sedan/sedan8.jpg" class="img-responsive" />
+                            <h2>Squid</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br /> <br /> <br /><br /> <br />
+
+
+    <!---- Sport carts ---->
+    <section id="sport">
+        <div class="container">
+            <h1>Sport Cars</h1>
+
+            <!---- Red 1 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/R8_Coupe_V10_performance-1.jpg/1024px-R8_Coupe_V10_performance-1.jpg" target="_blank">
+                            <img src="slike/sport/sport1.jpg" class="img-responsive" />
+                            <h2>Audi R8</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://www.theauto.eu/wp-content/uploads/2018/08/Audi-PB18-780x529.jpg" target="_blank">
+                            <img src="slike/sport/sport2.jpg" class="img-responsive" />
+                            <h2>ELECTRIC DRIVE AUDI</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://audimediacenter-a.akamaihd.net/system/production/media/80412/images/859bb338663ef5a6095ae075f8a4dc2c4febf3bd/A198295_blog.jpg?1582534432" target="_blank">
+                            <img src="slike/sport/sport3.jpg" class="img-responsive" />
+                            <h2>Audi R8 LMS GT2</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-audi-r8-spyder-103-1586899600.jpg?crop=0.715xw:0.803xh;0.130xw,0.144xh&resize=768:*" target="_blank">
+                            <img src="slike/sport/sport4.jpg" class="img-responsive" />
+                            <h2>Audi R8 Cabrio</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!---- Red 2 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://cdn.cnn.com/cnnnext/dam/assets/181127194547-01-audi-etron-gt-super-169.jpg" target="_blank">
+                            <img src="slike/sport/sport1.1.jpg" class="img-responsive" />
+                            <h2>E-Tron Audi</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://www.topgear.com/sites/default/files/images/news-article/carousel/2020/02/fdf9e57f03575bf7756dcad00d7989cc/a1813694_large.jpg?w=976&h=549" target="_blank">
+                            <img src="slike/sport/sport1.2.jpg" class="img-responsive" />
+                            <h2>Audi R8 V10</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://images.hgmsites.net/lrg/audi_100323951_l.jpg" target="_blank">
+                            <img src="slike/sport/sport1.3.jpg" class="img-responsive" />
+                            <h2>Audi Quattro Sport</h2> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://i.pinimg.com/564x/ac/ef/51/acef519a1f7bbf6979e5879bb2f7b3bd.jpg" target="_blank">
+                            <img src="slike/sport/sport1.4.jpg" class="img-responsive" />
+                            <h2>Hybrid Matt Audi</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!---- Red 3 ---->
+            <div class="row">
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://www.irishtimes.com/polopoly_fs/1.3714370.1543466855!/image/image.jpg_gen/derivatives/box_460_245/image.jpg" target="_blank">
+                            <img src="slike/sport/sport2.1.jpg" class="img-responsive" />
+                            <h2>Audi E-tron GT</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://media.ed.edmunds-media.com/audi/r8/2020/oem/2020_audi_r8_coupe_performance_fq_oem_1_815x543.jpg" target="_blank">
+                            <img src="slike/sport/sport2.2.jpg" class="img-responsive" />
+                            <h2>Audi R8 2022</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60ef1afc0939497862985ce2%2F2021-Audi-RS7%2F960x0.jpg%3Ffit%3Dscale" target="_blank">
+                            <img src="slike/sport/sport2.3.jpg" class="img-responsive" />
+                            <h2>Audi RS7</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 food-pic text-center">
+                    <div class="img-box">
+                        <a href="https://www.quattrodaily.com/wp-content/uploads/2018/03/audi-rs5-coupe.jpg" target="_blank">
+                            <img src="slike/sport/sport2.4.jpg" class="img-responsive" />
+                            <h2>Audi RS5</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+  <!---- Contact ---->
+  <section id="contact">
+    <div class="container">
+        <h1>Get in Touch</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="conact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" placeholder="Phone no." />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" />
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                </form>
+            </div>
+            <div class="col-md-6 contact-info">
+                <div class="follow">
+                    <b>Address:</b> <i class="fas fa-map-marked-alt"></i> Avenija Marina Držića 71/A, 10000, Zagreb
+                </div>
+                <div class="follow">
+                    <b>Phone:</b> <i class="fas fa-phone-alt"></i> + 1 800 822 2834
+                </div>
+                <div class="follow">
+                    <b>Email:</b> <i class="fas fa-at"></i> audi_support@audi.eu
+                </div>
+                <div class="follow">
+                    <label>
+                        <b>Get Social:</b>
+                    </label>
+                    <a href="https://www.facebook.com/audi/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/audi/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://goo.gl/maps/FKGZu8hpqAUkDNV68" target="_blank"><i class="fas fa-map-marked-alt"></i></a>
+                </div>
+            </div>
+</section>
+
+    <!---- Footer ---->
+    <footer>
+        <p>Copyright &copy; 2021 Marko Golubović. <a href="https://github.com/Markogolub758" target="_blank">  <i class="fab fa-github"></i></a></p>
+    </footer>
+</body>
+</html>
